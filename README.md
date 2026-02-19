@@ -1,6 +1,6 @@
 # Claude Code Plugins
 
-Collection of skills for quick integration into frontend projects (mobile + web).
+Collection of React & React Native TypeScript skills for Claude Code. Quick integration into frontend projects (mobile + web).
 
 ## Structure
 

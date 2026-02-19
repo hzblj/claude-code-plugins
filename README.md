@@ -6,6 +6,7 @@ Collection of skills for quick integration into frontend projects (mobile + web)
 
 ```
 shared/                  # Shared between mobile & web
+├── shared.md            # Single import for all shared guidelines
 ├── components/
 │   ├── component-architecture.md
 │   └── performance.md
@@ -19,40 +20,34 @@ shared/                  # Shared between mobile & web
 mobile/                  # React Native (Expo) only
 ├── agent-mobile-developer.md
 ├── animations/
-│   ├── reanimated.md
-│   └── skia.md
+│   ├── reanimated/SKILL.md
+│   └── skia/SKILL.md
 ├── components/
-│   └── lists.md
+│   └── lists/SKILL.md
 ├── navigation/
-│   └── react-navigation.md
+│   └── react-navigation/SKILL.md
 └── styling/
-    └── pixel-precision.md
+    └── native-feel/SKILL.md
 
 web/                     # Web (Next.js) only
 ├── agent-web-developer.md
 ├── animations/
-│   └── gsap.md
-├── routing/
-│   └── nextjs-routing.md
+│   └── gsap/SKILL.md
+├── navigation/
+│   └── nextjs-routing/SKILL.md
 └── styling/
-    └── tailwind.md
+    └── tailwind/SKILL.md
 ```
 
 ## Usage
 
-Each skill is an `.md` file with instructions for Claude Code.
-Copy into `.claude/skills/` in the target project.
+Reference skills in your project's `CLAUDE.md` using `@import` syntax.
 
-```bash
-# Add a specific skill
-cp mobile/animations/reanimated.md ~/my-app/.claude/skills/
+```md
+# CLAUDE.md
 
-# Add all shared skills
-cp shared/**/*.md ~/my-app/.claude/skills/
-
-# Add all mobile skills (shared + mobile)
-cp shared/**/*.md mobile/**/*.md ~/my-app/.claude/skills/
-
-# Add all web skills (shared + web)
-cp shared/**/*.md web/**/*.md ~/my-app/.claude/skills/
+@shared/shared.md
+@mobile/agent-mobile-developer.md
 ```
+
+`shared/shared.md` imports all shared guidelines (code style, type safety, project structure, component architecture, performance, hooks) as a single file.

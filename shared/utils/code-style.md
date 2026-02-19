@@ -18,6 +18,7 @@
 - Do not write clever code.
 - No nested ternaries.
 - No complex inline expressions.
+- No anonymous arrow functions in JSX.
 - Keep files visually scannable.
 - Maintain logical spacing between blocks of code.
 

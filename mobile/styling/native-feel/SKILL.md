@@ -1,3 +1,8 @@
+---
+name: native-feel
+description: UX precision and platform-native conventions — spacing system, design tokens, iOS/Android-specific patterns for navigation, haptics, icons, and interactions. Use when styling or ensuring native feel.
+---
+
 # UX & Pixel Precision
 
 - Follow spacing system strictly.

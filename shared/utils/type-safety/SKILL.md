@@ -1,3 +1,8 @@
+---
+name: type-safety
+description: Enforces strict TypeScript typing — use type over interface, no any, no enum, narrow types. Use when defining types or reviewing type safety.
+---
+
 # Type Safety (Strict)
 
 - Use `type` instead of `interface` everywhere.

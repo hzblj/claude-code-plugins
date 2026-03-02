@@ -1,3 +1,8 @@
+---
+name: component-architecture
+description: Defines component structure, prop typing, responsibility separation, and ref handling patterns. Use when creating or refactoring React components.
+---
+
 # Component Architecture
 
 - Define components using `FC` and explicit prop `type`.

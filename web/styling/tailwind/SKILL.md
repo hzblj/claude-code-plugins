@@ -1,3 +1,8 @@
+---
+name: tailwind
+description: Tailwind CSS rules — utility-first approach, class ordering, responsive design, dark mode, theme extension, and component patterns with cn(). Use when styling web components.
+---
+
 # Styling (Tailwind CSS)
 
 ## Rules

@@ -1,3 +1,8 @@
+---
+name: nextjs-routing
+description: Next.js App Router patterns — route structure, layouts, server vs client components, dynamic routes, loading/error states, metadata, and navigation. Use when building or modifying routing.
+---
+
 # Routing (Next.js App Router)
 
 ## Structure

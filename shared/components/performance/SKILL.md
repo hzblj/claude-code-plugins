@@ -1,3 +1,8 @@
+---
+name: performance
+description: Enforces rendering performance best practices — memoization, stable references, and avoiding unnecessary re-renders. Use when optimizing component performance.
+---
+
 # Performance Discipline
 
 - Prefer `useMemo` and `useCallback` when values or handlers are passed to children.

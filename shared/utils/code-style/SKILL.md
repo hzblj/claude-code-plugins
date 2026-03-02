@@ -1,3 +1,8 @@
+---
+name: code-style
+description: Enforces code readability, naming conventions, conditional classNames, and export rules. Use when writing or reviewing code style.
+---
+
 # Code Style
 
 ## Philosophy
@@ -18,7 +23,6 @@
 - Do not write clever code.
 - No nested ternaries.
 - No complex inline expressions.
-- No anonymous arrow functions in JSX.
 - Keep files visually scannable.
 - Maintain logical spacing between blocks of code.
 
@@ -35,6 +39,20 @@
 ```ts
 const GAP = 4 as const
 const ANIMATION_DURATION = 300 as const
+```
+
+## Conditional ClassNames
+
+- Always use `cn()` for conditional or dynamic class names.
+- Never use template literals or string concatenation for className.
+
+```ts
+// Good
+className={cn('base-class', isActive && 'active-class')}
+className={cn('base-class', isActive ? 'text-white' : 'text-white/60')}
+
+// Bad
+className={`base-class ${isActive ? 'active-class' : ''}`}
 ```
 
 ## Exports

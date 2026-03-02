@@ -1,3 +1,8 @@
+---
+name: reanimated
+description: Rules for React Native Reanimated — shared values, animated styles, layout animations, and worklet isolation. Use when implementing animations in React Native.
+---
+
 # Animations (Reanimated)
 
 - Use Reanimated.

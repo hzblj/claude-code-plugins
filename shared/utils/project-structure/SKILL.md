@@ -1,3 +1,8 @@
+---
+name: project-structure
+description: Defines folder organization, API boundaries, re-exports, and allowed internal subfolders. Use when structuring features or modules.
+---
+
 # Project Structure
 
 - Each feature or component has its own folder.
@@ -9,6 +14,6 @@
 - No circular dependencies.
 - Keep structure flat and predictable.
 - Allowed internal subfolders:
-  - `components`
-  - `hooks`
-  - `consts`
+    - `components`
+    - `hooks`
+    - `consts`

@@ -1,3 +1,8 @@
+---
+name: lists
+description: Strict performance rules for lists — FlashList, stable renderItem, extracted item components, and naming patterns. Use when building or optimizing list views.
+---
+
 # Lists (Strict Performance Rules)
 
 - Always use `FlashList`.

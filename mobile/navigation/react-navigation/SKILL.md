@@ -1,3 +1,8 @@
+---
+name: react-navigation
+description: React Navigation setup, typed routes, navigator structure, deep linking, and navigation actions. Use when building or modifying navigation in React Native.
+---
+
 # Navigation (React Navigation)
 
 ## Setup

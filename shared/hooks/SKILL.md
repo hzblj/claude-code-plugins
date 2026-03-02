@@ -1,3 +1,8 @@
+---
+name: hooks
+description: Rules for custom hooks — naming, logic extraction, and separation of view and logic. Use when creating or refactoring hooks.
+---
+
 # Hooks
 
 - All custom hooks must start with `use`.

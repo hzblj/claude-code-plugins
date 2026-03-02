@@ -1,3 +1,8 @@
+---
+name: gsap
+description: GSAP animation rules — timelines, ScrollTrigger, React integration with useGSAP, and cleanup patterns. Use when implementing animations on the web.
+---
+
 # Animations (GSAP)
 
 - Use GSAP for all complex animations.

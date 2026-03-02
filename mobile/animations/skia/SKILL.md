@@ -1,3 +1,8 @@
+---
+name: skia
+description: Rules for React Native Skia — shaders, charts, complex drawing, and GPU-driven effects. Use when building canvas-based or advanced graphical UI.
+---
+
 # Graphics & Advanced Rendering (Skia)
 
 - Use React Native Skia for heavy graphical or canvas-based work.
